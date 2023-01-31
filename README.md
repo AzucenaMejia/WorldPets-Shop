@@ -10,7 +10,7 @@ shop online and blog for pets.
 ###Documentation:
 Language: Spanish
 Time proyect: 
-Programming languages: Html,Bootstrap.
+Programming languages: Html,Bootstrap and css.
 
 
 Continue...
