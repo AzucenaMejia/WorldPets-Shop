@@ -8,9 +8,9 @@ shop online and blog for pets.
 4.Contact: mail, telephone number, adress and  socialnetwork.
 
 ###Documentation:
-Language: English and Spanish
+Language: Spanish
 Time proyect: 
-Programming languages: Html,Css and Javascript
+Programming languages: Html,Bootstrap.
 
 
 Continue...
