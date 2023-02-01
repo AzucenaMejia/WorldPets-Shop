@@ -1,14 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <title></title>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-</head>
 
-<body>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>World Pet</title>
+</head>
+    <body>
+        <header class="container-fluid bg-info d-flex justify-content-center">
+            <u class="text-light"><p class="text-light mb-0 p-2 fs-4">¡WorldPet,el lugar donde encontraras todo para demostrarle tu amor a tu hijo peludo!</p></u>
+        </header>
+    <!-- ========== menu ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+        <a class="justify-content-start" ><img src="./imagenes/logo.JPG" wight="120px" height="120px" alt="Aqui esta el logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="h3 p-1 blockquote collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Contact.html">Contact</a>
+            </li>
+            </ul>
+            <form class="d-flex">
+            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+<!-- ========== Formulario de contacto ========== -->
+<selection class="w-50 mx-auto text-center pt-5 " id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Si deseas saber más sobre nosotros, quieres contar tu historia con tu amigo peludo o tienes un PQRS no dudes en contactarnos a través de nuestras<span class="text-primary"> Redes Sociales y/o Formulario de contacto:</h1>
+        <p class="h5">Recuerda que el tiempo mínimo de respuestas es de maximo 15 días, aun así  trataremos de responder lo más pronto posible.</p>
+</selection>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Nombre Completo:</label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="nombres y apellidos">
+  </div>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Correo de electronico:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Asunto:</label>
+    <input type="asunto" class="form-control" id="exampleFormControlInput1" placeholder="De que trata el mensaje.">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+<!-- =========Formulario de contacto ========== -->
 
 </body>
 
