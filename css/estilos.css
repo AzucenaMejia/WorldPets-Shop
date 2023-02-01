@@ -2,13 +2,9 @@ body {
     background-color: rgb(236, 232, 232);
 }
 
-nav{
-    position:absolute;
+#encabezado{
+    color: #5ef16a;
 }
-
-h1 {
-    color: #0b0b0c;
-    font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid #030303;
+.selector-for-some-widget {
+    box-sizing: content-box;
 }
