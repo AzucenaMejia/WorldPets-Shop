@@ -2,9 +2,6 @@ body {
     background-color: rgb(236, 232, 232);
 }
 
-#encabezado{
-    color: #5ef16a;
-}
 .selector-for-some-widget {
     box-sizing: content-box;
 }
