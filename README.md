@@ -34,7 +34,7 @@ Proceso del proyecto:
 ## Divisiones del menú:
 ### -Home: en este sitio se encontrarán mensaje de bienvenida, redes sociales, enlaces directos a la tienda virtual y enlaces al blog.
 ### -Shop: buscador con filtros, carrito de compras, productos con reseñas de los compradores y puntajes, descripción de cada producto, realizar facturación y formas de pago.
-### -Blog: Artículos, notas, noticias, tips e historias.
+### -Blog: Artículos, notas, noticias, tips e historias
 ### -Contact: formulario con nombre, correo, numero de contacto, asusto de mensaje y cuerpo de mensaje, correo de la tienda virtual y redes sociales.
 
 
