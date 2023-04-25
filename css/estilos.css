@@ -6,3 +6,10 @@ body {
     box-sizing: content-box;
 }
 
+/*****blog  *****/
+.imagenblog {
+ width: 400px;
+ height: 500px;
+}
+
+/***** Endblog  *****/
