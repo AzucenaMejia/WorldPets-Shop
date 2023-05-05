@@ -1,6 +1,3 @@
-body {
-    background-color: rgb(236, 232, 232);
-}
 
 .selector-for-some-widget {
     box-sizing: content-box;
@@ -13,3 +10,15 @@ body {
 }
 
 /***** Endblog  *****/
+
+footer{
+    text-align: center;
+    background: #000010;
+    padding: 40px;
+}
+
+footer p{
+    color:white;
+    font-size: 13px;
+    margin: 20px;
+}
