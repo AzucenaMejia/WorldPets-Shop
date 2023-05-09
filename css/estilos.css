@@ -2,7 +2,18 @@
 .selector-for-some-widget {
     box-sizing: content-box;
 }
+.texto-redes{
+    color:rgb(197, 2, 165);
+    text-align: center;
+    font-size: 30px;
+    margin: 2% 0;
+}
 
+.conector-paginas{
+    text-align: center;
+    font-size: 30px;
+    margin: 2% 0;
+}
 
 
 footer{
