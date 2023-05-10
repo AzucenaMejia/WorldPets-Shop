@@ -5,6 +5,10 @@
     width: 700px;
 }
 
+h1{
+    color:rgb(255, 136, 0)
+}
+
 .mensaje-bienvenida{
     text-align: 60px;
     font-weight: bold;
