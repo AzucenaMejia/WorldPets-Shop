@@ -1,4 +1,4 @@
-# WorldPets
+# WorldPets (Proyecto retomado en el 2026)
 shop online and blog for pets.
 
 <<<<<<< HEAD
