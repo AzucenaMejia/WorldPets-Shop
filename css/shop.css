@@ -19,3 +19,11 @@ footer p{
     footer{padding: 20px 12px}
     footer p{font-size: 12px}
 }
+
+/* Productos grid */
+.products-grid .card{border:1px solid #e6e6e6}
+.products-grid img{object-fit:cover; height:180px}
+
+@media (max-width: 576px){
+    .products-grid img{height:140px}
+}
