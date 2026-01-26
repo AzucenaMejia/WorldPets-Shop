@@ -9,3 +9,13 @@ footer p{
     font-size: 13px;
     margin: 20px;
 }
+
+@media (max-width: 768px){
+    footer{padding: 30px 16px}
+    footer p{font-size: 13px}
+}
+
+@media (max-width: 480px){
+    footer{padding: 20px 12px}
+    footer p{font-size: 12px}
+}

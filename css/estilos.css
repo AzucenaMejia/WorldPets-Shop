@@ -6,37 +6,43 @@ body{
     padding: 0;
 }
 
+/* buscador: fluid, capped by max-width */
 #buscador{
     margin: 0 auto;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     padding: 20px;
 }
 
 h1{
-    color:rgb(255, 136, 0)
+    color: rgb(255, 136, 0);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .mensaje-bienvenida{
-    text-align: 60px;
+    text-align: center;
     font-weight: bold;
+    margin: 1rem 0;
 }
 
 .imagendeblog{
-    width: 400px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
 
 .texto-redes{
-    color:rgb(8, 161, 33);
+    color: rgb(8, 161, 33);
     text-align: center;
-    font-size: 30px;
+    font-size: clamp(1rem, 3vw, 1.8rem);
     margin: 2% 0;
 }
-
 .conector-paginas{
     text-align: center;
-    font-size: 30px;
+    font-size: clamp(1rem, 3vw, 1.8rem);
     margin: 2% 0;
 }
 
@@ -44,11 +50,31 @@ h1{
 footer{
     text-align: center;
     background: #000010;
-    padding: 40px;
+    padding: 40px 20px;
 }
 
 footer p{
-    color:white;
+    color: white;
     font-size: 13px;
-    margin: 20px;
+    margin: 20px 0;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1024px){
+    /* minor container padding tweak */
+}
+
+@media (max-width: 768px){
+    h1{font-size: 1.8rem}
+    #buscador{padding: 16px}
+    .texto-redes, .conector-paginas{font-size: 1.4rem}
+    footer{padding: 30px 16px}
+}
+
+@media (max-width: 480px){
+    h1{font-size: 1.4rem}
+    #buscador{padding: 12px}
+    .texto-redes, .conector-paginas{font-size: 1.1rem}
+    footer{padding: 20px 12px}
+    footer p{font-size: 12px}
 }
