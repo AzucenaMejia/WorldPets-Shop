@@ -33,6 +33,35 @@ h1{
 }
 
 
+.redes-sociales{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.redes-sociales a{
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Social icons: igual tamaño, centrados, etiqueta debajo */
+.redes-sociales .social-item{ display:flex; flex-direction:column; align-items:center; }
+.redes-sociales .social-icon{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+.redes-sociales .social-label{
+    font-size: 0.95rem;
+    color: #222;
+    margin-top: 6px;
+}
+
+@media (max-width: 576px){
+    .redes-sociales .social-icon{ width: 100px; height: 100px; }
+    .redes-sociales .social-label{ font-size: 0.9rem; }
+}
 
 .texto-redes{
     color: rgb(8, 161, 33);
